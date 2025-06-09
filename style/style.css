@@ -1,0 +1,47 @@
+h1,h3 {
+    text-align: center;
+}
+
+h1 {
+    background-color: yellow;
+}
+
+a {
+    width: auto;
+}
+
+div {
+    width: 450px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+img {
+  width: 449px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.container {
+    
+    margin-left: 250px;
+}
+
+.row {
+
+  display: flex;
+  margin: 10px;
+
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+  object-fit: fill;
+  content: fill;
+  
+  
+}
